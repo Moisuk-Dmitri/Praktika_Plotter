@@ -75,10 +75,10 @@
             this.flowLayoutPanel1.Controls.Add(this.fingerprintsStackerLabel);
             this.flowLayoutPanel1.Controls.Add(this.fingerprintsStackerBox);
             this.flowLayoutPanel1.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(176, 2);
-            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(134, 2);
+            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(2);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(186, 201);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(140, 163);
             this.flowLayoutPanel1.TabIndex = 0;
             // 
             // hardDriveLabel
@@ -87,7 +87,7 @@
             this.hardDriveLabel.Location = new System.Drawing.Point(2, 0);
             this.hardDriveLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.hardDriveLabel.Name = "hardDriveLabel";
-            this.hardDriveLabel.Size = new System.Drawing.Size(101, 16);
+            this.hardDriveLabel.Size = new System.Drawing.Size(80, 13);
             this.hardDriveLabel.TabIndex = 0;
             this.hardDriveLabel.Text = "Жесткий диск";
             // 
@@ -95,42 +95,39 @@
             // 
             this.hardDriveBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.hardDriveBox.FormattingEnabled = true;
-            this.hardDriveBox.Location = new System.Drawing.Point(2, 18);
-            this.hardDriveBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.hardDriveBox.Location = new System.Drawing.Point(2, 15);
+            this.hardDriveBox.Margin = new System.Windows.Forms.Padding(2);
             this.hardDriveBox.Name = "hardDriveBox";
-            this.hardDriveBox.Size = new System.Drawing.Size(164, 24);
+            this.hardDriveBox.Size = new System.Drawing.Size(124, 21);
             this.hardDriveBox.TabIndex = 1;
-            //this.hardDriveBox.SelectedIndexChanged += new System.EventHandler(this.comboBox_SelectedIndexChanged);
             // 
             // cartridgeVolumeLabel
             // 
             this.cartridgeVolumeLabel.AutoSize = true;
-            this.cartridgeVolumeLabel.Location = new System.Drawing.Point(2, 44);
+            this.cartridgeVolumeLabel.Location = new System.Drawing.Point(2, 38);
             this.cartridgeVolumeLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.cartridgeVolumeLabel.Name = "cartridgeVolumeLabel";
-            this.cartridgeVolumeLabel.Size = new System.Drawing.Size(89, 16);
+            this.cartridgeVolumeLabel.Size = new System.Drawing.Size(100, 13);
             this.cartridgeVolumeLabel.TabIndex = 3;
             this.cartridgeVolumeLabel.Text = "Объем картриджа";
-            //this.cartridgeVolumeLabel.Click += new System.EventHandler(this.cartridgeVolumeLabel_Click);
             // 
             // cartridgeVolumeBox
             // 
             this.cartridgeVolumeBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cartridgeVolumeBox.FormattingEnabled = true;
-            this.cartridgeVolumeBox.Location = new System.Drawing.Point(2, 62);
-            this.cartridgeVolumeBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cartridgeVolumeBox.Location = new System.Drawing.Point(2, 53);
+            this.cartridgeVolumeBox.Margin = new System.Windows.Forms.Padding(2);
             this.cartridgeVolumeBox.Name = "cartridgeVolumeBox";
-            this.cartridgeVolumeBox.Size = new System.Drawing.Size(164, 24);
+            this.cartridgeVolumeBox.Size = new System.Drawing.Size(124, 21);
             this.cartridgeVolumeBox.TabIndex = 2;
-            //this.cartridgeVolumeBox.SelectedIndexChanged += new System.EventHandler(this.comboBox_SelectedIndexChanged);
             // 
             // fingerprintsStackerLabel
             // 
             this.fingerprintsStackerLabel.AutoSize = true;
-            this.fingerprintsStackerLabel.Location = new System.Drawing.Point(2, 88);
+            this.fingerprintsStackerLabel.Location = new System.Drawing.Point(2, 76);
             this.fingerprintsStackerLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.fingerprintsStackerLabel.Name = "fingerprintsStackerLabel";
-            this.fingerprintsStackerLabel.Size = new System.Drawing.Size(161, 16);
+            this.fingerprintsStackerLabel.Size = new System.Drawing.Size(116, 13);
             this.fingerprintsStackerLabel.TabIndex = 4;
             this.fingerprintsStackerLabel.Text = "Укладчик отпечатков";
             // 
@@ -138,20 +135,18 @@
             // 
             this.fingerprintsStackerBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.fingerprintsStackerBox.FormattingEnabled = true;
-            this.fingerprintsStackerBox.Location = new System.Drawing.Point(2, 106);
-            this.fingerprintsStackerBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.fingerprintsStackerBox.Location = new System.Drawing.Point(2, 91);
+            this.fingerprintsStackerBox.Margin = new System.Windows.Forms.Padding(2);
             this.fingerprintsStackerBox.Name = "fingerprintsStackerBox";
-            this.fingerprintsStackerBox.Size = new System.Drawing.Size(164, 24);
+            this.fingerprintsStackerBox.Size = new System.Drawing.Size(124, 21);
             this.fingerprintsStackerBox.TabIndex = 5;
-            //this.fingerprintsStackerBox.SelectedIndexChanged += new System.EventHandler(this.comboBox_SelectedIndexChanged);
-            
             // 
             // enterButton
             // 
-            this.enterButton.Location = new System.Drawing.Point(278, 237);
-            this.enterButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.enterButton.Location = new System.Drawing.Point(199, 193);
+            this.enterButton.Margin = new System.Windows.Forms.Padding(2);
             this.enterButton.Name = "enterButton";
-            this.enterButton.Size = new System.Drawing.Size(104, 30);
+            this.enterButton.Size = new System.Drawing.Size(78, 24);
             this.enterButton.TabIndex = 2;
             this.enterButton.Text = "Ввод";
             this.enterButton.UseVisualStyleBackColor = true;
@@ -169,9 +164,9 @@
             this.flowLayoutPanel3.Controls.Add(this.manufacturerBox);
             this.flowLayoutPanel3.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
             this.flowLayoutPanel3.Location = new System.Drawing.Point(2, 2);
-            this.flowLayoutPanel3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.flowLayoutPanel3.Margin = new System.Windows.Forms.Padding(2);
             this.flowLayoutPanel3.Name = "flowLayoutPanel3";
-            this.flowLayoutPanel3.Size = new System.Drawing.Size(170, 201);
+            this.flowLayoutPanel3.Size = new System.Drawing.Size(128, 163);
             this.flowLayoutPanel3.TabIndex = 3;
             // 
             // group_label
@@ -180,7 +175,7 @@
             this.group_label.Location = new System.Drawing.Point(2, 0);
             this.group_label.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.group_label.Name = "group_label";
-            this.group_label.Size = new System.Drawing.Size(54, 16);
+            this.group_label.Size = new System.Drawing.Size(42, 13);
             this.group_label.TabIndex = 0;
             this.group_label.Text = "Группа";
             // 
@@ -188,20 +183,20 @@
             // 
             this.groupBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.groupBox.FormattingEnabled = true;
-            this.groupBox.Location = new System.Drawing.Point(2, 18);
-            this.groupBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox.Location = new System.Drawing.Point(2, 15);
+            this.groupBox.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox.Name = "groupBox";
-            this.groupBox.Size = new System.Drawing.Size(164, 24);
+            this.groupBox.Size = new System.Drawing.Size(124, 21);
             this.groupBox.TabIndex = 1;
             this.groupBox.SelectedIndexChanged += new System.EventHandler(this.groupBox_SelectedIndexChanged);
             // 
             // type_label
             // 
             this.type_label.AutoSize = true;
-            this.type_label.Location = new System.Drawing.Point(2, 44);
+            this.type_label.Location = new System.Drawing.Point(2, 38);
             this.type_label.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.type_label.Name = "type_label";
-            this.type_label.Size = new System.Drawing.Size(32, 16);
+            this.type_label.Size = new System.Drawing.Size(26, 13);
             this.type_label.TabIndex = 2;
             this.type_label.Text = "Тип";
             // 
@@ -209,10 +204,10 @@
             // 
             this.typeBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.typeBox.FormattingEnabled = true;
-            this.typeBox.Location = new System.Drawing.Point(2, 62);
-            this.typeBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.typeBox.Location = new System.Drawing.Point(2, 53);
+            this.typeBox.Margin = new System.Windows.Forms.Padding(2);
             this.typeBox.Name = "typeBox";
-            this.typeBox.Size = new System.Drawing.Size(164, 24);
+            this.typeBox.Size = new System.Drawing.Size(124, 21);
             this.typeBox.TabIndex = 3;
             this.typeBox.SelectedIndexChanged += new System.EventHandler(this.typeBox_SelectedIndexChanged);
             this.typeBox.EnabledChanged += new System.EventHandler(this.comboBox_EnabledChanged);
@@ -220,10 +215,10 @@
             // subtype_label
             // 
             this.subtype_label.AutoSize = true;
-            this.subtype_label.Location = new System.Drawing.Point(2, 88);
+            this.subtype_label.Location = new System.Drawing.Point(2, 76);
             this.subtype_label.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.subtype_label.Name = "subtype_label";
-            this.subtype_label.Size = new System.Drawing.Size(56, 16);
+            this.subtype_label.Size = new System.Drawing.Size(44, 13);
             this.subtype_label.TabIndex = 4;
             this.subtype_label.Text = "Подтип";
             // 
@@ -231,20 +226,20 @@
             // 
             this.subtypeBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.subtypeBox.FormattingEnabled = true;
-            this.subtypeBox.Location = new System.Drawing.Point(2, 106);
-            this.subtypeBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.subtypeBox.Location = new System.Drawing.Point(2, 91);
+            this.subtypeBox.Margin = new System.Windows.Forms.Padding(2);
             this.subtypeBox.Name = "subtypeBox";
-            this.subtypeBox.Size = new System.Drawing.Size(164, 24);
+            this.subtypeBox.Size = new System.Drawing.Size(124, 21);
             this.subtypeBox.TabIndex = 5;
             this.subtypeBox.EnabledChanged += new System.EventHandler(this.comboBox_EnabledChanged);
             // 
             // manufacturer_label
             // 
             this.manufacturer_label.AutoSize = true;
-            this.manufacturer_label.Location = new System.Drawing.Point(2, 132);
+            this.manufacturer_label.Location = new System.Drawing.Point(2, 114);
             this.manufacturer_label.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.manufacturer_label.Name = "manufacturer_label";
-            this.manufacturer_label.Size = new System.Drawing.Size(111, 16);
+            this.manufacturer_label.Size = new System.Drawing.Size(86, 13);
             this.manufacturer_label.TabIndex = 6;
             this.manufacturer_label.Text = "Производитель";
             // 
@@ -252,20 +247,20 @@
             // 
             this.manufacturerBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.manufacturerBox.FormattingEnabled = true;
-            this.manufacturerBox.Location = new System.Drawing.Point(2, 150);
-            this.manufacturerBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.manufacturerBox.Location = new System.Drawing.Point(2, 129);
+            this.manufacturerBox.Margin = new System.Windows.Forms.Padding(2);
             this.manufacturerBox.Name = "manufacturerBox";
-            this.manufacturerBox.Size = new System.Drawing.Size(164, 24);
+            this.manufacturerBox.Size = new System.Drawing.Size(124, 21);
             this.manufacturerBox.TabIndex = 7;
             // 
             // flowLayoutPanel4
             // 
             this.flowLayoutPanel4.Controls.Add(this.flowLayoutPanel3);
             this.flowLayoutPanel4.Controls.Add(this.flowLayoutPanel1);
-            this.flowLayoutPanel4.Location = new System.Drawing.Point(23, 21);
-            this.flowLayoutPanel4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.flowLayoutPanel4.Location = new System.Drawing.Point(17, 17);
+            this.flowLayoutPanel4.Margin = new System.Windows.Forms.Padding(2);
             this.flowLayoutPanel4.Name = "flowLayoutPanel4";
-            this.flowLayoutPanel4.Size = new System.Drawing.Size(366, 207);
+            this.flowLayoutPanel4.Size = new System.Drawing.Size(281, 172);
             this.flowLayoutPanel4.TabIndex = 4;
             // 
             // label1
@@ -286,7 +281,7 @@
             0,
             0});
             this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(120, 22);
+            this.numericUpDown1.Size = new System.Drawing.Size(120, 20);
             this.numericUpDown1.TabIndex = 3;
             // 
             // numericUpDown2
@@ -298,7 +293,7 @@
             0,
             0});
             this.numericUpDown2.Name = "numericUpDown2";
-            this.numericUpDown2.Size = new System.Drawing.Size(120, 22);
+            this.numericUpDown2.Size = new System.Drawing.Size(120, 20);
             this.numericUpDown2.TabIndex = 4;
             // 
             // numericUpDown3
@@ -310,7 +305,7 @@
             0,
             0});
             this.numericUpDown3.Name = "numericUpDown3";
-            this.numericUpDown3.Size = new System.Drawing.Size(120, 22);
+            this.numericUpDown3.Size = new System.Drawing.Size(120, 20);
             this.numericUpDown3.TabIndex = 7;
             // 
             // numericUpDown4
@@ -322,7 +317,7 @@
             0,
             0});
             this.numericUpDown4.Name = "numericUpDown4";
-            this.numericUpDown4.Size = new System.Drawing.Size(120, 22);
+            this.numericUpDown4.Size = new System.Drawing.Size(120, 20);
             this.numericUpDown4.TabIndex = 8;
             // 
             // label5
@@ -343,7 +338,7 @@
             0,
             0});
             this.numericUpDown5.Name = "numericUpDown5";
-            this.numericUpDown5.Size = new System.Drawing.Size(120, 22);
+            this.numericUpDown5.Size = new System.Drawing.Size(120, 20);
             this.numericUpDown5.TabIndex = 11;
             // 
             // label6
@@ -364,16 +359,17 @@
             0,
             0});
             this.numericUpDown6.Name = "numericUpDown6";
-            this.numericUpDown6.Size = new System.Drawing.Size(120, 22);
+            this.numericUpDown6.Size = new System.Drawing.Size(120, 20);
             this.numericUpDown6.TabIndex = 12;
             // 
             // FilterWindow
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(409, 284);
+            this.ClientSize = new System.Drawing.Size(300, 228);
             this.Controls.Add(this.flowLayoutPanel4);
             this.Controls.Add(this.enterButton);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "FilterWindow";
             this.Text = "Фильтр";
             this.Load += new System.EventHandler(this.FilterWindow_Load);
