@@ -64,7 +64,7 @@ namespace DB_Project
                 " Plotter.Plotter_Name as 'Модель', " +
                 " Manufacturer.Manufacturer_Name as `Производитель`, " +
                 " Plotter_Subtype.Subtype_Name as `Подтип`, " +
-                " Plotter.Price as `Цена`, " +
+                " Plotter.Price as `Цена, руб`, " +
                 " Plotter.Info as `Информация` " +
                 "FROM Plotter " +
                 "JOIN Manufacturer ON Plotter.ID_Manufacturer = Manufacturer.ID_Manufacturer " +

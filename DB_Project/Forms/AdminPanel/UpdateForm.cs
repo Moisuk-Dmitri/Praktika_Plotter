@@ -165,5 +165,10 @@ namespace DB_Project.Forms
             }
             pathToFileBox.Text = path;
         }
+
+        private void hardDriveLabel_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

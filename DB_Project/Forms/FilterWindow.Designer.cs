@@ -87,9 +87,9 @@
             this.hardDriveLabel.Location = new System.Drawing.Point(2, 0);
             this.hardDriveLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.hardDriveLabel.Name = "hardDriveLabel";
-            this.hardDriveLabel.Size = new System.Drawing.Size(80, 13);
+            this.hardDriveLabel.Size = new System.Drawing.Size(99, 13);
             this.hardDriveLabel.TabIndex = 0;
-            this.hardDriveLabel.Text = "Жесткий диск";
+            this.hardDriveLabel.Text = "Жесткий диск, ГБ";
             // 
             // hardDriveBox
             // 
@@ -107,9 +107,9 @@
             this.cartridgeVolumeLabel.Location = new System.Drawing.Point(2, 38);
             this.cartridgeVolumeLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.cartridgeVolumeLabel.Name = "cartridgeVolumeLabel";
-            this.cartridgeVolumeLabel.Size = new System.Drawing.Size(100, 13);
+            this.cartridgeVolumeLabel.Size = new System.Drawing.Size(120, 13);
             this.cartridgeVolumeLabel.TabIndex = 3;
-            this.cartridgeVolumeLabel.Text = "Объем картриджа";
+            this.cartridgeVolumeLabel.Text = "Объем картриджа, мл";
             // 
             // cartridgeVolumeBox
             // 
@@ -369,7 +369,7 @@
             this.ClientSize = new System.Drawing.Size(300, 228);
             this.Controls.Add(this.flowLayoutPanel4);
             this.Controls.Add(this.enterButton);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "FilterWindow";
             this.Text = "Фильтр";
             this.Load += new System.EventHandler(this.FilterWindow_Load);

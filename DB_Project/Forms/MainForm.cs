@@ -51,7 +51,7 @@ namespace DB_Project
 
             string cmd =
                 "SELECT Plotter.ID_Plotter as `ID_Плоттера`, Plotter.Plotter_Name as 'Модель', Manufacturer.Manufacturer_Name as `Производитель`, Plotter_Subtype.Subtype_Name as `Подтип`, " +
-                "Plotter.Price as `Цена`, Plotter.Info as `Информация` " +
+                "Plotter.Price as `Цена, руб`, Plotter.Info as `Информация` " +
                 "FROM Plotter " +
                 "JOIN Manufacturer ON Plotter.ID_Manufacturer = Manufacturer.ID_Manufacturer " +
                 "JOIN Plotter_Subtype ON Plotter.ID_Subtype = Plotter_Subtype.ID_Subtype ";
@@ -93,8 +93,8 @@ namespace DB_Project
         private void buttonChar_Click(object sender, EventArgs e)
         {
             string cmd = "SELECT Properties.ID_Plotter as `ID_Плоттера`, " +
-                "Hard_Drive.Hard_Drive_Capacity as `Жесткий диск`, " +
-                "Cartridge_Volume.Cartridge_Volume_Capacity as `Объем картриджа`, " +
+                "Hard_Drive.Hard_Drive_Capacity as `Жесткий диск, ГБ`, " +
+                "Cartridge_Volume.Cartridge_Volume_Capacity as `Объем картриджа, мл`, " +
                 "Fingerprints_Stacker.Presence as `Укладчик отпечатков`, " +
                 "Properties.Print_Width as `Ширина печати, мм`, " +
                 "Properties.Print_Speed as `Скорость печати (А1), сек`, " +
@@ -140,7 +140,7 @@ namespace DB_Project
 
             string cmd =
                  "SELECT Plotter.ID_Plotter as `ID_Плоттера`, Plotter.Plotter_Name as 'Модель', Manufacturer.Manufacturer_Name as `Производитель`, Plotter_Subtype.Subtype_Name as `Подтип`, " +
-                 "Plotter.Price as `Цена`, Plotter.Info as `Информация` " +
+                 "Plotter.Price as `Цена, руб`, Plotter.Info as `Информация` " +
                  "FROM Plotter " +
                  "JOIN Manufacturer ON Plotter.ID_Manufacturer = Manufacturer.ID_Manufacturer " +
                  "JOIN Plotter_Subtype ON Plotter.ID_Subtype = Plotter_Subtype.ID_Subtype ";
@@ -172,8 +172,8 @@ namespace DB_Project
         {
             db dataBase = new db();
             List<string> strings = new List<string>() 
-            { "Жесткий диск - ",
-              "Объем картриджа - ",
+            { "Жесткий диск, ГБ - ",
+              "Объем картриджа, мл - ",
               "Укладчик отпечатков - ",
               "Ширина печати, мм - ",
               "Скорость печати(А1), сек - ",
@@ -345,7 +345,7 @@ namespace DB_Project
                " Plotter.Plotter_Name AS `Модель`, " +
                " Manufacturer.Manufacturer_Name AS `Производитель`, " +
                " Plotter_Subtype.Subtype_Name AS `Подтип`, " +
-               " Plotter.Price AS `Цена`, " + 
+               " Plotter.Price AS `Цена, руб`, " + 
                " Plotter.Info AS `Информация` " +
                "FROM Plotter " +
                "JOIN Manufacturer ON Plotter.ID_Manufacturer = Manufacturer.ID_Manufacturer " +
@@ -404,7 +404,7 @@ namespace DB_Project
 
             string cmd =
                  "SELECT Plotter.ID_Plotter as `ID_Плоттера`, Plotter.Plotter_Name as 'Модель', Manufacturer.Manufacturer_Name as `Производитель`, Plotter_Subtype.Subtype_Name as `Подтип`, " +
-                 "Plotter.Price as `Цена`, Plotter.Info as `Информация` " +
+                 "Plotter.Price as `Цена, руб`, Plotter.Info as `Информация` " +
                  "FROM Plotter " +
                  "JOIN Manufacturer ON Plotter.ID_Manufacturer = Manufacturer.ID_Manufacturer " +
                  "JOIN Plotter_Subtype ON Plotter.ID_Subtype = Plotter_Subtype.ID_Subtype ";
